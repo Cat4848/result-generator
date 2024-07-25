@@ -4,7 +4,7 @@
   "description": "A convenient way to end an operation by either producing an error with an error message or success with a success message.",
   "main": "dist/src/index.js",
   "scripts": {
-    "build": "tsc tsconfig.build.json",
+    "build": "tsc -p tsconfig.build.json",
     "test": "jest"
   },
   "repository": {
