@@ -2,9 +2,10 @@
   "name": "result-generator",
   "version": "1.0.0",
   "description": "A convenient way to end an operation by either producing an error with an error message or success with a success message.",
-  "main": "index.js",
+  "main": "dist/src/index.js",
   "scripts": {
-    "test": "npm run test"
+    "build": "tsc tsconfig.build.json",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
