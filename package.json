@@ -1,0 +1,42 @@
+{
+  "name": "result-generator",
+  "version": "1.0.0",
+  "description": "A convenient way to end an operation by either producing an error with an error message or success with a success message.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cat4848/result-generator.git"
+  },
+  "keywords": [
+    "error",
+    "handling",
+    "error",
+    "handling",
+    "catch",
+    "error",
+    "error",
+    "handler",
+    "typescript",
+    "error",
+    "handling"
+  ],
+  "author": "Catalin Pirtiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cat4848/result-generator/issues"
+  },
+  "homepage": "https://github.com/Cat4848/result-generator#readme",
+  "dependencies": {
+    "typescipt": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.3",
+    "ts-node": "^10.9.2"
+  }
+}
