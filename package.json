@@ -1,6 +1,6 @@
 {
   "name": "result-generator",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A convenient way to end an operation by either producing an error with an error message or success with a success message.",
   "main": "./dist/index.js",
   "module": "./dist/index.cjs",
