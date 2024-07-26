@@ -16,6 +16,7 @@ export class ResultGenerator {
    * The data property contains the string passed as parameter.
    *
    * @param {string}     data
+   * @returns {Success}
    *
    */
   generateSuccess(data: string) {
@@ -36,6 +37,7 @@ export class ResultGenerator {
    * will contain the error.
    *
    * @param {unknown}     err
+   * @returns {Fail}
    *
    */
   generateError(err: unknown) {
