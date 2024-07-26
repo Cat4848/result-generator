@@ -8,7 +8,7 @@ interface Fail {
   error: Error;
 }
 
-class ResultGenerator {
+export class ResultGenerator {
   generateSuccess(data: string) {
     const success: Success = {
       success: true,
@@ -29,5 +29,3 @@ class ResultGenerator {
     return fail;
   }
 }
-
-module.exports = ResultGenerator;
