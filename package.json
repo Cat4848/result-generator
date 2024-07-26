@@ -7,10 +7,8 @@
   "types": "./dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
     "test": "jest",
-    "build:webpack": "webpack",
-    "build:tsup": "tsup"
+    "build": "tsup"
   },
   "repository": {
     "type": "git",
