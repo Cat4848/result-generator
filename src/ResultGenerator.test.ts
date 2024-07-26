@@ -1,4 +1,4 @@
-import ResultGenerator from "./index";
+import { ResultGenerator } from "./index";
 
 test("if generate success successfully", () => {
   const customersName = '{customers: ["Jane", "Andrew", "Mark"]}';
