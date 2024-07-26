@@ -10,13 +10,13 @@ interface Fail {
 
 export class ResultGenerator {
   /**
-   * The generateSuccess method that takes a string
+   * The generateSuccess method takes a string
    * and returns a Success object with success and data properties.
    * The success property is a boolean value.
    * The data property contains the string passed as parameter.
    *
    * @param {string}     data
-   * @returns {Success}
+   * @returns {Success} a Success object
    *
    */
   generateSuccess(data: string) {
@@ -28,16 +28,16 @@ export class ResultGenerator {
   }
 
   /**
-   * The generateError method that takes an "err" unknown parameter
+   * The generateError method takes an "err" unknown parameter
    * and returns a Fail object with success and error properties.
    * The success property is a boolean value.
    * The error property contains an error with "Unknown Error" message
    * if the "err" parameter is of type unknown.
    * If the method is passed an Error object, the error property
-   * will contain the error.
+   * will contain the error itself.
    *
    * @param {unknown}     err
-   * @returns {Fail}
+   * @returns {Fail} a Fail object
    *
    */
   generateError(err: unknown) {
