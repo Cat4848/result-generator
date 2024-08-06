@@ -8,6 +8,8 @@ interface Fail {
   error: Error;
 }
 
+export type Result = Success | Fail;
+
 export class ResultGenerator {
   /**
    * The generateSuccess method takes a string
